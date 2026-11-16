@@ -1,0 +1,181 @@
+1. Ma tâche:
+
+Quelle tâche ai-je demandé à l’IA de réaliser ?
+Décrire en quelques lignes la tâche choisie.
+Exemple :
+Je souhaite utiliser une IA générative pour préparer une explication simple du machine learning destinée à des etudiants en 1ere anne LT
+
+2. Première tentative — Prompt V1:
+
+Mon premier prompt:
+Explique le machine learning
+Réponse obtenue(Copier ici la réponse de l’IA) :
+   le machine learning ou lapprentissage automatique est une branche de linteligence artificielle (IA) qui permet a un oridinateur dapprendre a partir de donnes et dexperiences sans etre explicitement programmee 
+   pour chaque tache 
+ Analyse de la réponse
+quest-ce qui est satisfaisant ?
+la reponse est tres generale pour un debutant 
+Quest-ce qui pourrait être amélioré ?
+il faut ameliorer le prompt et le rend plus precis 
+Quest-ce qui manque dans mon prompt ?
+Cocher les éléments absents ou insuffisamment précisés :
+☐ Rôle
+☐ Contexte
+✅Tâche précise
+☐ Contraintes
+✅  Format de sortie
+☐ Public cible
+
+3. Deuxième tentative — Prompt V2
+Mon prompt amélioré:
+tu explique la machine learning a un etudiant en 1ere LT donne une definition exacte et precise 
+Réponse obtenue (Copier ici la réponse de l’IA):
+un systeme informatique dit apprendre de lexperience E pour une tache T et une mesure de performance P si ses performances sur la tache T mesuree par P s ameliorent avec lexperience E 
+
+4. Comparaison V1 / V2
+
+Critère V1 V2
+
+Précision /2 /2✅
+Pertinence /2 /2✅
+Respect des contraintes /2 /2 ✅
+Respect du format /2 /2✅
+Clarté /2 /2✅
+Total /10 /10
+Pourquoi V2 est-elle meilleure ?(Écrire 3 à 5 lignes):
+v2 est la meilleur version du prompt que v1 car v2 est tres bien redige cette fois ci  en utilisant des mots cles precises exactes et claires 
+
+Ai-je réellement obtenu une meilleure réponse ?
+✅Oui
+☐ Non
+☐ Partiellement
+Justification:
+en tant que etudiant en telecommunicationn c est exactement la definition scientifique qui m aidera a comprendre mieux mon domaine a long terme 
+
+5. Expérience Zero-shot / One-shot / Few-shot:
+5.1 Zero-shot:
+Prompt:
+explique le machine learning a un etudiant en 1ere LT version zero shot 
+Réponse de l’IA: (IA) ma formee une reponse avec zero exemple 
+
+5.2 One-shot
+Prompt: explique le machine learning a un etudiant en 1ere LT version  one-shot 
+Réponse de l’IA :(IA) ma formee une reponse avec un seule  exemple
+
+5.3 Few-shot:
+Prompt:explique le machine learning a un etudiant en 1ere LT version few-shots
+Réponse de l’IA :(IA) ma formee une reponse avec pleusiers exemples
+
+Comparaison
+Qu avez-vous remarqué entre les trois approches ?
+jai remarque que (IA) repond exactement a mes besoins 
+Selon vous, dans quelle situation le few-shot est-il utile ?
+dans le cas dun debutant ou une personne qui ne sais rien sur le domaine informatique 
+
+6. Auto-critique légère
+Jai demandé à IA :
+Analyse ta réponse précédente. Identifie deux points forts, deux faiblesses et propose deux
+améliorations.
+Résultat de l’auto-critique :
+1. Deux points forts
+Clarté et simplicité : La définition du Few-Shot Learning est expliquée avec des mots simples, adaptés à un étudiant en 1ère année LT.
+Exemple concret : L'exemple des spams permet de comprendre comment un modèle utilise quelques exemples pour réaliser une classification.
+2. Deux faiblesses
+Imprécision technique : La réponse peut laisser croire que le modèle apprend réellement à partir des exemples fournis, alors que dans le contexte des LLM, les exemples servent généralement à guider le modèle dans sa réponse, sans modifier ses paramètres.
+Exemple trop simplifié : L'exemple des spams ne distingue pas clairement le Few-Shot Learning du fonctionnement classique d'un algorithme de Machine Learning entraîné sur un grand ensemble de données.
+3. Deux améliorations proposées
+Préciser le concept : Expliquer que dans le contexte des LLM, le Few-Shot consiste à fournir quelques exemples dans le prompt pour orienter le modèle vers la tâche souhaitée.
+Améliorer l'exemple : Utiliser un exemple de prompt contenant deux ou trois exemples de classification, puis demander au modèle de classifier un nouveau message
+
+Est-ce que cette auto-critique garantit que la réponse est correcte ?
+☐ Oui
+✅ Non
+Pourquoi ?
+cette auto-critique ne garantit pas que la réponse est correcte car il faut toujours verifier en tant que humain 
+
+Rappel :
+L’auto-critique de l’IA est une aide à l’analyse. Elle ne remplace pas la vérification humaine.
+
+7. Mon prompt final(Après les différentes expériences, rédiger une version finale améliorée.):
+explique le machine learning pour un etudiant en 1ere LT en utilisant few shots donne une definition precise et exacte format professionnelle 
+Quels éléments ai-je ajoutés ou modifiés ?
+✅ Rôle
+✅Contexte
+✅ Tâche
+✅Contraintes
+✅Format
+✅Exemples / few-shot
+✅Critères de qualité
+✅ Vérification
+
+8. Mon gabarit de prompt réutilisable:
+Construire ici un modèle que vous pourrez réutiliser dans d’autres situations.
+RÔLE
+Tu es un etudiant en 1ere LT
+CONTEXTE
+Le contexte est le machine learning
+TÂCHE
+Ta tâche est dexpliquer le machine learning et donner une defintion 
+CONTRAINTES
+Respecte les contraintes suivantes :
+  ne depasse âs les 15 lignes 
+  pas de generalites 
+  few shots
+
+FORMAT
+Présente la réponse sous la forme suivante :
+format academique  (adaptable pour un projet de fin d etude ou une presentation )
+CRITÈRES DE QUALITÉ
+La réponse doit être : 
+claire 
+precise 
+bien redigee 
+
+9. Ma réflexion personnelle:
+ Quel élément du prompt a eu le plus d’impact sur la réponse ?
+  le niveau de lutilisateur
+Quelle erreur ai-je commise dans mon premier prompt ?
+  jai pas fournis des informations 
+Qu’ai-je appris en comparant V1 et V2 ?
+  il faut mentionner certains contraintes 
+ Quand le few-shot est-il utile ?
+   dans le cas d un debutant 
+Pourquoi faut-il vérifier une réponse produite par une IA ? 
+   car l IA peut se tromper parfaois ( c la phenomene d hallucination)
+
+10. Auto-évaluation avant remise critere
+Oui
+Partiellement
+Non
+
+Mon rôle est clairement défini ✅ ☐ ☐
+Mon contexte est suffisamment précis✅☐ ☐
+
+Ma tâche est clairement formulée ✅☐ ☐
+Mes contraintes sont explicites ✅ ☐ ☐
+Le format de sortie est précisé✅ ☐ ☐
+J’ai testé au moins deux versions du prompt✅ ☐ ☐
+J’ai comparé les résultats  ✅☐ ☐
+J’ai expérimenté zéro-shot / one-shot / few-
+shot ✅ ☐ ☐
+J’ai utilisé l’auto-critique de manière critique ✅☐ ☐
+J’ai construit un gabarit réutilisable ✅ ☐ ☐
+Je peux expliquer les améliorations apportées✅ ☐ ☐ 
+
+À retenir
+Un bon prompt ne consiste pas seulement à poser une question.
+Rôle + Contexte + Tâche + Contraintes + Format
+Et surtout :
+Je teste → j’évalue → j’améliore → je vérifie.
+
+
+
+
+
+
+
+
+
+
+
+
